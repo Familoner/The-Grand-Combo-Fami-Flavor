@@ -15,9 +15,9 @@ country_event = {
 		rank = 16
 	}
 	mean_time_to_happen = {
-		months = 12
+		months = 18
 		modifier = {
-			factor = 0.5
+			factor = 1.5
 			war_policy = jingoism
 		}
 	}
@@ -33,6 +33,17 @@ country_event = {
 	option = {
 		name = "EVTOPTB50090"
 		badboy = -10
+		THIS = {
+			any_pop = {
+				limit = {
+					OR = {
+						is_primary_culture = yes
+						is_accepted_culture = yes
+					}
+				}
+				militancy = 2
+			}
+		}
 		relation = {
 			who = MEX
 			value = 200
