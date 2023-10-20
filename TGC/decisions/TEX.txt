@@ -1,7 +1,7 @@
 political_decisions = {
 	#Texas expansion
 	push_further_west = {
-		picture = cowboy
+		picture = yellowrose
 		potential = {
 			tag = TEX
 			NOT = { has_country_flag = TEX_westward }
