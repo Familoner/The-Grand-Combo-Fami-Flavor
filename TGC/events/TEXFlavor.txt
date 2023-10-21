@@ -124,6 +124,7 @@ country_event = {
 	option = {
 		#Reduce Texas to 1836 borders (pacifist path)
 		name "EVTOPTA50094"
+		clr_country_flag = MEX_TEX_WAR
 		prestige = 15
 		badboy = -5
 		any_pop = {
@@ -156,6 +157,7 @@ country_event = {
 	option = {
 		#Annex Texas
 		name = "EVTOPTB50094"
+		clr_country_flag = MEX_TEX_WAR
 		prestige = 25
 		badboy = 2
 		relation = {
