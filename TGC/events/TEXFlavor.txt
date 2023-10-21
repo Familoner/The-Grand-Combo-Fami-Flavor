@@ -64,6 +64,7 @@ country_event = {
 		tag = TEX
 		exists = CAL
 		is_greater_power = yes
+		owns = 96
 		relation = {
 			who = CAL
 			value = 150

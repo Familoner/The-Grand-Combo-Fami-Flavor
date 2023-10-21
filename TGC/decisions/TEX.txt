@@ -16,15 +16,43 @@ political_decisions = {
 		}
 		
 		effect = {
-			war = {
-				target = MEX
-				attacker_goal = { casus_belli = acquire_all_cores }
-				defender_goal = { casus_belli = cut_down_to_size }
-				call_ally = no
-			}
 			set_country_flag = TEX_westward
 			badboy = 10
 			prestige = 10
+			MEX = {
+			 war = {
+				target = TEX
+				attacker_goal = { casus_belli = cut_down_to_size }
+				defender_goal = { casus_belli = cut_down_to_size }
+				call_ally = no
+			}
+			}
+		}
+	}
+	#Remove Mexican cores
+	houston_treaty = {
+	picture = treaty_signing
+		potential = {
+			has_country_flag = TEX_westward
+			NOT = { has_country_flag = houston_treaty}
+			all_core = {
+				OR = { 
+				 owned_by = THIS
+				 in_sphere = THIS
+				 NOT = { owned_by = MEX }
+				}
+				}
+		}
+		allow = {
+			war = no
+			MEX = {
+			truce_with = TEX
+			is_disarmed = yes
+			}
+		}
+		effect = {
+			prestige = 5
+			set_country_flag = houston_treaty
 			MEX_103 = { 
 				limit = { is_core = MEX }
 				add_core = TEX 
@@ -60,36 +88,18 @@ political_decisions = {
 				add_core = TEX
 			} #Alta California
 			
-		}
-	}
-	#Remove Mexican cores
-	houston_treaty = {
-	picture = treaty_signing
-		potential = {
-			has_country_flag = TEX_westward
-			NOT = { has_country_flag = houston_treaty}
-			all_core = {
-				OR = { 
-				 owned_by = THIS
-				 in_sphere = THIS
-				 NOT = { owned_by = MEX }
-				}
-				}
-		}
-		allow = {
-			truce_with = MEX
-			war = no
-		}
-		effect = {
-			prestige = 5
-			set_country_flag = houston_treaty
 			any_country = {
 			 any_owned = {
 					limit = { is_core = TEX }
 					remove_core = MEX
 				}
 			}
-			MEX = { prestige = -15 }
+			MEX = { 
+			 prestige = -15 
+			 any_owned = {
+				limit = { is_core = TEX }
+				secede_province = TEX
+			 }
+			 }
 		}
-
 }
