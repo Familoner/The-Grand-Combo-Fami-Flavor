@@ -206,8 +206,8 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA50096"
-		any_province = {
-			secede_province = MEX
+		MEX = {
+			inherit = TEX
 		}
 	}
 }
