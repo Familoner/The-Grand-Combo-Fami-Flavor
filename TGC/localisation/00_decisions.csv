@@ -3491,6 +3491,8 @@ push_further_west_title;Claim the Frontier;;;;;;;;;;;;;x
 push_further_west_desc;As the region west of the Rio Grande is very sparsely-populated by many groups of people due to it's harsh climate, a claim could be fabricated on the basis of settling and civilizing the region, doing so will most likely result in a war with Mexico.;;;;;;;;;;;;;x
 houston_treaty_title;The Treaty of Houston ($YEAR$);;;;;;;;;;;;;x
 houston_treaty_desc;With Texas recent victory in the North American Southwest we can now force the mexicans to renounce their claims to the region;;;;;;;;;;;;;x
+monterrey_treaty_title;The Treaty of Monterrey ($YEAR$);;;;;;;;;;;;;x
+monterrey_treaty_desc;After our recent victory against the expansionist Republic of Texas we must decide how to deal with them once and for all;;;;;;;;;;;;;x
 reconstitute_lost_america_desc;Several decades ago, Republicans and the rich elites in the Thirteen Colonies have tricked the populace into rejecting the Crown and the King. We must rectify this and remind them of their sacred duty to the British Crown. The Union Jack must fly over the Atlantic Seabord once more!;;;;;;;;;;;;;x
 reconstitute_lost_america_title;Reclaim Northern America;;;;;;;;;;;;;x
 reorganize_new_england_dominion_desc;Now that we control New England once again, we should reorganize it into a proper British dominion.;;;;;;;;;;;;;x

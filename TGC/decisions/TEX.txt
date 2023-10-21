@@ -5,6 +5,7 @@ political_decisions = {
 		potential = {
 			tag = TEX
 			NOT = { has_country_flag = TEX_westward }
+			NOT = { has_country_flag = TEX_failure }
 			TEX = {
 				all_core = { owned_by = THIS }
 			}
@@ -20,6 +21,7 @@ political_decisions = {
 			badboy = 10
 			prestige = 10
 			MEX = {
+			 set_country_flag = MEX_TEX_WAR
 			 war = {
 				target = TEX
 				attacker_goal = { casus_belli = cut_down_to_size }
@@ -102,4 +104,21 @@ political_decisions = {
 			 }
 			 }
 		}
+	}
+	#Treaty of Monterrey (Mexican victory)
+	monterrey_treaty = {
+		picture = treaty_signing
+			potential = {
+				has_country_flag = MEX_TEX_WAR
+				is_core = 132
+			}
+			allow = {
+				war = no
+				truce_with = TEX
+				TEX = { is_disarmed = yes }
+			}
+			effect = {
+				country_event = 50094
+			}
+	}
 }

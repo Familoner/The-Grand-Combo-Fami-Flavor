@@ -149,6 +149,16 @@ EVTOPTA50092;Good!;;;;;;;;;;;;;x
 EVTNAME50093;The Californian Unification;;;;;;;;;;;;;x
 EVTDESC50093;A popular vote has been held in California about joining the republic of Texas, by a small margin they agreed to join as equal members in a federation.;;;;;;;;;;;;;x
 EVTOPTA50093;The Lone Star shall not be lonely anymore;;;;;;;;;;;;;x
+EVTNAME50094;Triumph over Texas;;;;;;;;;;;;;x
+EVTDESC50094;After the victory of Mexico during the Mexican-Texian war a peace negotiation is being held at Monterrey, although most members of the peace negotiations strive for total annexation of the rebellious province there is a small minority that advocates for a more moderate approach by reducing Texas to their 1836 de facto borders;;;;;;;;;;;;;x
+EVTOPTA50094;Favor the moderate faction;;;;;;;;;;;;;x
+EVTOPTB50094;Favor the annexationist faction;;;;;;;;;;;;;x
+EVTNAME50095;The price of defeat;;;;;;;;;;;;;x
+EVTDESC50095;During the treaty of Monterrey the mexicans have forced Texas to cede and relinquish any claims to any lands acquired after 1836;;;;;;;;;;;;;x
+EVTOPTA50095;We shouldn't have underestimated those mexicans...;;;;;;;;;;;;;x
+EVTNAME50096;The mexican dictate;;;;;;;;;;;;;x
+EVTDESC50096;During the treaty of Monterrey the mexicans have agreed to a complete annexation of Texas.;;;;;;;;;;;;;x
+EVTOPTA50096;There is nothing we can do;;;;;;;;;;;;;x
 EVTDESC56277;Now that Cuba is under Union authority once more, we must decide what to do with the rebellious rebel island. Some argue the island should be handed over the Afro-Cubano population and granted home rule. Others say military rule will continue to be necessary to keep the peace.;;;;;;;;;;;;;x
 EVTNAME56277;Order restored in Cuba;;;;;;;;;;;;;x
 EVTOPTA56277;We must give democracy a chance in Cuba;;;;;;;;;;;;;x

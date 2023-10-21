@@ -112,3 +112,100 @@ country_event = {
 		inherit = CAL
 	}
 }
+#Mexican victory event
+country_event = {
+	id = 50094
+	title = "EVTNAME50094"
+	desc = "EVTDESC50094"
+	picture = texas_event
+	
+	is_trigerred_only = yes
+	
+	option = {
+		#Reduce Texas to 1836 borders (pacifist path)
+		name "EVTOPTA50094"
+		prestige = 15
+		badboy = -5
+		any_pop = {
+			limit = { 
+			 OR = {
+			  pop_majority_issue = jingoism
+			  pop_majority_issue = pro_military}
+			}
+			militancy = 6
+			consciouness = 10
+		}
+		any_pop = {
+			limit = { pop_majority_issue = pacifism }
+			militancy = -6
+			consciouness = -10 
+			}
+		TEX = { country_event = 50095}
+		ai_chance = {
+			factor = 0.1
+			modifier = {
+				factor = 0
+				war_policy = jingoism
+			}
+			modifier = {
+				factor = 0
+				war_policy = pro_military
+			}
+		}
+	}
+	option = {
+		#Annex Texas
+		name = "EVTOPTB50094"
+		prestige = 25
+		badboy = 2
+		relation = {
+			who = USA
+			value = -400
+		}
+		TEX = { country_event = 50096}
+		ai_chance = {
+			factor = 0.9
+		}
+	}
+}
+#Mexican victory event pacifist path, Texas response event
+country_event = {
+	id = 50095
+	title = "EVTNAME50095"
+	desc = "EVTDESC50095"
+	picture = texas
+	
+	is_trigerred_only = yes
+	
+	option = {
+		name = "EVTOPTA50095"
+		clr_country_flag = TEX_westward
+		set_country_flag = TEX_failure
+		prestige = -100
+		107 = { secede_province = MEX remove_core = TEX }
+		103 = { secede_province = MEX remove_core = TEX }
+		128 = { secede_province = MEX remove_core = TEX }
+		129 = { secede_province = MEX remove_core = TEX }
+		105 = { secede_province = MEX remove_core = TEX }
+		2631 = { secede_province = MEX remove_core = TEX }
+		3372 = { secede_province = MEX remove_core = TEX }
+		136 = { secede_province = MEX remove_core = TEX }
+		138 = { secede_province = MEX remove_core = TEX }
+	}
+}
+#Mexican victory event annexation path, Texas response event
+country_event = {
+	id = 50096
+	title = "EVTNAME50096"
+	desc = "EVTDESC50096"
+	picture = texas_event
+	
+	is_trigerred_only = yes
+	
+	option = {
+		name = "EVTOPTA50096"
+		any_province = {
+			secede_province = MEX
+		}
+	}
+}
