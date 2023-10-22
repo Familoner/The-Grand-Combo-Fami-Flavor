@@ -10,6 +10,7 @@ country_event = {
 	trigger = {
 		tag = TEX
 		has_country_flag = houston_treaty
+		has_unclaimed_cores = no
 		NOT = { truce_with = MEX }
 		nationalism_n_imperialism = 1
 		rank = 16
