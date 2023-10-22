@@ -271,151 +271,220 @@ country_event = {
 		name = "EVTOPTA50097"
 		money = -20000
 		set_country_flag = california_trail
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 88
+		MEX_103 = {
+			any_owned = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
 		}
-		88 = { life_rating = 5 }
 		
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 96
-		}
-		96 = { life_rating = 1 }	
-
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 94
-		}
-		94 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 95
-		}
-		95 = { life_rating = 5 }		
-
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 98
-		}
-		98 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 97
-		}
-		97 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 99
-		}
-		99 = { life_rating = 3 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan }
-			move = 110
-		}
-		110 = { life_rating = 1 }
-
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132 } 
-			move = 107
-		}
-		107 = { life_rating = 3 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 108
-		}
-		108 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 135
-		}
-		135 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 103
-		}
-		103 = { life_rating = 1 }
-
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 135
-		}
-		135 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 128
+		MEX_100 = {
+			any_owned = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
 		}
 
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 129
+		MEX_97 = {
+			any_owned = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
 		}
 		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 105
+		MEX_94 = {
+			any_owned = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
 		}
+			110 = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
+			
+			107 = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
+			
+			103 = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
 		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 2631
-		}
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 2148
-		}
-		2148 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 109
-		}
-		109 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 38
-		}
-		38 = { life_rating = 1 }
-
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 2662
-		}
-		2662 = { life_rating = 1 }
-
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 101
-		}
-		101 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 3367
-		}
-		3367 = { life_rating = 1 }
-		
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 100
-		}
-		100 = { life_rating = 1 }
-
-		random_pop = {
-			limit = { has_pop_culture = texan location = 132}
-			move = 102
-		}
-		102 = { life_rating = 1 }
+			108 = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
+			
+			135 = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
+			128 = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
+			
+			129 = {
+				life_rating = 2
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = no }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
 	}
 	option = {
 		name = "EVTOPTB50097"
