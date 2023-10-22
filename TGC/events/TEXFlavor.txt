@@ -211,3 +211,190 @@ country_event = {
 		}
 	}
 }
+#Colonization of the wild west
+country_event = {
+	id = 50097
+	title = "EVTNAME50097"
+	desc = "EVTDESC50097"
+	picture = pioneer_wagons
+	
+	trigger = {
+		NOT = { has_country_flag = california_trail }
+		has_country_flag = houston_treaty
+		has_unclaimed_cores = no
+		owns = 104
+		year = 1860
+		96 = { has_global_flag = american_frontier_96 }
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "EVTOPTA50097"
+		money = -20000
+		set_country_flag = california_trail
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 88
+		}
+		88 = { life_rating = 5 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 96
+		}
+		96 = { life_rating = 1 }	
+
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 94
+		}
+		94 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 95
+		}
+		95 = { life_rating = 5 }		
+
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 98
+		}
+		98 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 97
+		}
+		97 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 99
+		}
+		99 = { life_rating = 3 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan }
+			move = 110
+		}
+		110 = { life_rating = 1 }
+
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132 } 
+			move = 107
+		}
+		107 = { life_rating = 3 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 108
+		}
+		108 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 135
+		}
+		135 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 103
+		}
+		103 = { life_rating = 1 }
+
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 135
+		}
+		135 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 128
+		}
+
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 129
+		}
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 105
+		}
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 2631
+		}
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 2148
+		}
+		2148 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 109
+		}
+		109 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 38
+		}
+		38 = { life_rating = 1 }
+
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 2662
+		}
+		2662 = { life_rating = 1 }
+
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 101
+		}
+		101 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 3367
+		}
+		3367 = { life_rating = 1 }
+		
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 100
+		}
+		100 = { life_rating = 1 }
+
+		random_pop = {
+			limit = { has_pop_culture = texan location = 132}
+			move = 102
+		}
+		102 = { life_rating = 1 }
+	}
+	option = {
+		name = "EVTOPTB50097"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = navajo
+					has_pop_culture = apache
+					has_pop_culture = californian
+					has_pop_culture = shoshone
+					has_pop_culture = ute
+				}
+				militancy = -5
+				consciouness = -6
+			}
+		}
+	}
+}

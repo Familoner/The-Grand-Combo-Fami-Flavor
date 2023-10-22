@@ -159,6 +159,10 @@ EVTOPTA50095;We shouldn't have underestimated those mexicans...;;;;;;;;;;;;;x
 EVTNAME50096;The mexican dictate;;;;;;;;;;;;;x
 EVTDESC50096;During the treaty of Monterrey the mexicans have agreed to a complete annexation of Texas.;;;;;;;;;;;;;x
 EVTOPTA50096;There is nothing we can do;;;;;;;;;;;;;x
+EVTNAME50097;The californian trail;;;;;;;;;;;;;x
+EVTDESC50097;The road from Houston to San Francisco and Los Angeles are filled with dangers and hostile natives, making trade and communication between the states of Texas and California difficult, with some effort and investment settlers could be sent to build trading outposts, villages or even small cities and help fend off the natives from attacking any travelers.;;;;;;;;;;;;;x
+EVTOPTA50097;This sounds like a good investment;;;;;;;;;;;;;x
+EVTOPTB50097;Not now!;;;;;;;;;;;;;x
 EVTDESC56277;Now that Cuba is under Union authority once more, we must decide what to do with the rebellious rebel island. Some argue the island should be handed over the Afro-Cubano population and granted home rule. Others say military rule will continue to be necessary to keep the peace.;;;;;;;;;;;;;x
 EVTNAME56277;Order restored in Cuba;;;;;;;;;;;;;x
 EVTOPTA56277;We must give democracy a chance in Cuba;;;;;;;;;;;;;x
