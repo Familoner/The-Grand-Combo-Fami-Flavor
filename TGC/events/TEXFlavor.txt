@@ -275,17 +275,17 @@ country_event = {
 			any_owned = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -296,17 +296,17 @@ country_event = {
 			any_owned = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -317,17 +317,17 @@ country_event = {
 			any_owned = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -338,17 +338,17 @@ country_event = {
 			any_owned = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -357,17 +357,17 @@ country_event = {
 			110 = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -376,17 +376,17 @@ country_event = {
 			107 = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -395,17 +395,17 @@ country_event = {
 			103 = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -414,17 +414,17 @@ country_event = {
 			108 = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -433,17 +433,17 @@ country_event = {
 			135 = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -451,17 +451,17 @@ country_event = {
 			128 = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
@@ -470,17 +470,17 @@ country_event = {
 			129 = {
 				life_rating = 2
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
 				random_pop = {
-					limit = { is_primary_culture = no }
+					limit = { is_primary_culture = yes }
 					assimilate = yes 
 					reduce_pop = 4
 				}
