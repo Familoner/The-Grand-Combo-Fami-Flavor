@@ -485,6 +485,25 @@ country_event = {
 					reduce_pop = 4
 				}
 			}
+
+			129 = {
+				life_rating = 5
+				random_pop = {
+					limit = { is_primary_culture = yes }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = yes }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+				random_pop = {
+					limit = { is_primary_culture = yes }
+					assimilate = yes 
+					reduce_pop = 4
+				}
+			}
 	}
 	option = {
 		name = "EVTOPTB50097"
