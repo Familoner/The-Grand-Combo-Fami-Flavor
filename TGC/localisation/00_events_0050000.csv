@@ -143,6 +143,8 @@ EVTNAME50090;Beyond the Rio Grande;;;;;;;;;;;;;x
 EVTDESC50090;Although there is relative peace with Mexico after the treaty of Houston, the tensions in the border never ceased completely, recently a ship from Texas full of passengers has sunk in the Rio Grande, the details of the event are unclear but there are rumors circulating that accuse local mexican authorities for the incident. Texan authorities discuss of using this incident to justify further expansion into nothern Mexico.;;;;;;;;;;;;;x
 EVTOPTA50090;The mexicans must pay for their barbarity!;;;;;;;;;;;;;x
 EVTOPTB50090;Those accusations are ridiculous, we must let the investigations proceed.;;;;;;;;;;;;;x
+EVTNAME50091;The Treaty of Veracruz ($YEAR$);;;;;;;;;;;;;x
+EVTDESC50091;Texas has once again defeated Mexico in yet another humiliating war for the fragile mexican state. The texan diplomats demanded the concession of vast territories south of the Rio Grande;;;;;;;;;;;;;x
 EVTNAME50092;The Lone Star And The Bear;;;;;;;;;;;;;x
 EVTDESC50092;Texas recent rise to power in the region has caused the newborn state to gain much influence with it's californian neighbor.;;;;;;;;;;;;;x
 EVTOPTA50092;Good!;;;;;;;;;;;;;x
@@ -150,7 +152,7 @@ EVTNAME50093;The Californian Unification;;;;;;;;;;;;;x
 EVTDESC50093;A popular vote has been held in California about joining the republic of Texas, by a small margin they agreed to join as equal members in a federation.;;;;;;;;;;;;;x
 EVTOPTA50093;The Lone Star shall not be lonely anymore;;;;;;;;;;;;;x
 EVTNAME50094;Triumph over Texas;;;;;;;;;;;;;x
-EVTDESC50094;After the victory of Mexico during the Mexican-Texian war a peace negotiation is being held at Monterrey, although most members of the peace negotiations strive for total annexation of the rebellious province there is a small minority that advocates for a more moderate approach by reducing Texas to their 1836 de facto borders;;;;;;;;;;;;;x
+EVTDESC50094;After the victory of Mexico during the Mexican-Texan war a peace negotiation is being held at Monterrey, although most members of the peace negotiations strive for total annexation of the rebellious province there is a small minority that advocates for a more moderate approach by reducing Texas to their 1836 de facto borders;;;;;;;;;;;;;x
 EVTOPTA50094;Favor the moderate faction;;;;;;;;;;;;;x
 EVTOPTB50094;Favor the annexationist faction;;;;;;;;;;;;;x
 EVTNAME50095;The price of defeat;;;;;;;;;;;;;x
