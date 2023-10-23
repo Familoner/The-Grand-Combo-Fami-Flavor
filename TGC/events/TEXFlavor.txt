@@ -26,14 +26,18 @@ country_event = {
 	}
 	option = {
 		name = "EVTOPTA50090"
-		badboy = 20
-			 set_country_flag = 2nd_texian_mexican_war
+		relation = {
+			who = MEX
+			value = -400
+		}
+		badboy = 18
+		set_country_flag = 2nd_texian_mexican_war
 			 war = {
 				target = MEX
 				attacker_goal = { casus_belli = cut_down_to_size }
 				defender_goal = { casus_belli = cut_down_to_size }
 				call_ally = no
-			}
+			 }
 		}
 	option = {
 		name = "EVTOPTB50090"
@@ -71,13 +75,14 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 	
 	option = {
-		name = "EVTNAME50091"
+		name = "EVTOPTA50091"
 		MEX_2139 = { add_core = TEX } #Baja California
 		MEX_2138 = { add_core = TEX } #Sonora
 		MEX_2142 = { add_core = TEX } #Chihuahua
 		MEX_2149 = { add_core = TEX } #Cohauila
 		MEX_2150 = { add_core = TEX } #Nuevo Leon-Tamaulipas
 		MEX_2156 = { add_core = TEX } #Sinaloa
+		MEX_2151 = { add_core = TEX } #Durango
 		MEX = {
 			any_owned = {
 				limit = { is_core = TEX }
