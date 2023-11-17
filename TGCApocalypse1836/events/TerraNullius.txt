@@ -46,32 +46,30 @@ province_event = {   #Zombify province
 		}
 	}
 
-	immediate = { 
-				JAN = {
-					change_variable = {
-							which = zombified_provinces
-							value = 1
-					}
-					add_country_modifier = { name = ap_zm_timer duration = 365 }
-				}
-				any_pop = {
-					reduce_pop = 0.8
-					militancy = 8
-					consciousness = -3
-				}
-				change_controller = ZOM
-				secede_province = ZOM
-				ZOM = { money = 5000 }
-				add_province_modifier = { name = ap_prov_timer duration = 30 }
-	}
-
 	option = {
 		name = "DAMN"
 		owner = { prestige = -3 plurality = -5 }
+		JAN = {
+			change_variable = {
+					which = zombified_provinces
+					value = 1
+			}
+			add_country_modifier = { name = ap_zm_timer duration = 365 }
+		}
+		any_pop = {
+			reduce_pop = 0.8
+			militancy = 8
+			consciousness = -3
+		}
+		change_controller = ZOM
+		secede_province = ZOM
+		ZOM = { money = 5000 }
+		add_province_modifier = { name = ap_prov_timer duration = 30 }
 	}
 }
 
-country_event = { #note, this must be a country event, otherwise it might happen multiple times at once, which can cause a crash
+#Note: this must be a country event, otherwise it might happen multiple times at once, which can cause a crash
+country_event = { 
 	id = 66101
 	title = "EVTNAME66101"
 	desc = "EVTDESC66101"
@@ -90,7 +88,10 @@ country_event = { #note, this must be a country event, otherwise it might happen
 		days = 30
 	}
 
-	immediate = {		
+	allow_multiple_instances = no
+
+	option = {
+		name = "DAMN"
 		random_owned = {
 			limit = {
 				province_control_days = 365
@@ -106,10 +107,7 @@ country_event = { #note, this must be a country event, otherwise it might happen
 			change_controller = ZOM
 			secede_province = ZOM
 		}
-	}
-
-	option = {
-		name = "DAMN"
+		ZOM = { add_country_modifier = { name = wasteland duration = -1 } }
 	}
 }
 
@@ -132,13 +130,16 @@ province_event = {
 
 	option = {
 		name = "Zombies deleted"
-		militancy = -9 
-		reduce_pop = 0.5 
-		secede_province = WAS
+		any_pop = {
+			militancy = -9 
+			reduce_pop = 0.1
+			secede_province = WAS
+		}
 	}
 }
 
-country_event = { #note, this must be a country event, otherwise it might happen multiple times at once, which can cause a crash
+#Note: this must be a country event, otherwise it might happen multiple times at once, which can cause a crash
+country_event = {
 	id = 66103
 	title = "EVTNAME66200"
 	desc = "EVTDESC66200"
@@ -154,22 +155,22 @@ country_event = { #note, this must be a country event, otherwise it might happen
 		days = 1
 	}
 
-	immediate = {		
+	allow_multiple_instances = no 
+
+	option = {
+		name = "DAMN"
 		random_owned = {
 			limit = {
 				province_control_days = 365
 			}
 			any_pop = {
-				reduce_pop = 0.8
-				militancy = 8
+				reduce_pop = 0.1
+				militancy = -9
 				consciousness = -3
 			}
 			secede_province = WAS
 		}
-	}
-
-	option = {
-		name = "DAMN"
+		WAS = { add_country_modifier = { name = wasteland duration = -1 } }
 	}
 }
 
